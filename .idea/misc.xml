@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DependencyValidationManager">
@@ -9,3 +10,13 @@
   <component name="ProjectRootManager" version="2" project-jdk-name="ruby-1.9.2-p290" project-jdk-type="RUBY_SDK" />
 </project>
 
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="ruby-1.8.7-p352" project-jdk-type="RUBY_SDK" />
+</project>
+
+>>>>>>> 6bf0896c159bc36967340e21509adecedab23c04

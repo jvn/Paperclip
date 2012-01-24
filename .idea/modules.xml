@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
@@ -7,3 +8,14 @@
   </component>
 </project>
 
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Paperclip.iml" filepath="$PROJECT_DIR$/.idea/Paperclip.iml" />
+    </modules>
+  </component>
+</project>
+
+>>>>>>> 6bf0896c159bc36967340e21509adecedab23c04
