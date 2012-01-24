@@ -1,0 +1,53 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  Firmanavn: MyString
+  Adresse: MyString
+  Postnr: MyString
+  telefon: 1
+  primar_branche: MyString
+  E-mail: MyString
+  tilladelse_til: MyString
+  antal_tilladelser: 1
+  DTL_regioner: MyString
+  antal_biler: 1
+  antal_chaufforer: 1
+  kunde: MyString
+  konkurrent: MyString
+  dorcanvas: MyString
+  telefoncanvas_ego: MyString
+  telefoncanvas_(outsourcet): MyString
+  M1_Kontakt_etableret: MyString
+  M2_Mode_booket: MyString
+  M3_Mode_gennemfort: MyString
+  M4_Aftale_indgaet: MyString
+  M5_Deltager_booket: MyString
+  Milepalsstatus: MyString
+  naste_kontakt: MyString
+  kommentarer_og_noter: MyString
+
+two:
+  Firmanavn: MyString
+  Adresse: MyString
+  Postnr: MyString
+  telefon: 1
+  primar_branche: MyString
+  E-mail: MyString
+  tilladelse_til: MyString
+  antal_tilladelser: 1
+  DTL_regioner: MyString
+  antal_biler: 1
+  antal_chaufforer: 1
+  kunde: MyString
+  konkurrent: MyString
+  dorcanvas: MyString
+  telefoncanvas_ego: MyString
+  telefoncanvas_(outsourcet): MyString
+  M1_Kontakt_etableret: MyString
+  M2_Mode_booket: MyString
+  M3_Mode_gennemfort: MyString
+  M4_Aftale_indgaet: MyString
+  M5_Deltager_booket: MyString
+  Milepalsstatus: MyString
+  naste_kontakt: MyString
+  kommentarer_og_noter: MyString

@@ -1,0 +1,113 @@
+<%= form_for(@lead) do |f| %>
+  <% if @lead.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@lead.errors.count, "error") %> prohibited this lead from being saved:</h2>
+
+      <ul>
+      <% @lead.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :Firmanavn %><br />
+    <%= f.text_field :Firmanavn %>
+  </div>
+  <div class="field">
+    <%= f.label :Adresse %><br />
+    <%= f.text_field :Adresse %>
+  </div>
+  <div class="field">
+    <%= f.label :Postnr %><br />
+    <%= f.text_field :Postnr %>
+  </div>
+  <div class="field">
+    <%= f.label :telefon %><br />
+    <%= f.number_field :telefon %>
+  </div>
+  <div class="field">
+    <%= f.label :primar_branche %><br />
+    <%= f.text_field :primar_branche %>
+  </div>
+  <div class="field">
+    <%= f.label :Email %><br />
+    <%= f.text_field :Email %>
+  </div>
+  <div class="field">
+    <%= f.label :tilladelse_til %><br />
+    <%= f.text_field :tilladelse_til %>
+  </div>
+  <div class="field">
+    <%= f.label :antal_tilladelser %><br />
+    <%= f.number_field :antal_tilladelser %>
+  </div>
+  <div class="field">
+    <%= f.label :DTL_regioner %><br />
+    <%= f.text_field :DTL_regioner %>
+  </div>
+  <div class="field">
+    <%= f.label :antal_biler %><br />
+    <%= f.number_field :antal_biler %>
+  </div>
+  <div class="field">
+    <%= f.label :antal_chaufforer %><br />
+    <%= f.number_field :antal_chaufforer %>
+  </div>
+  <div class="field">
+    <%= f.label :kunde %><br />
+    <%= f.text_field :kunde %>
+  </div>
+  <div class="field">
+    <%= f.label :konkurrent %><br />
+    <%= f.text_field :konkurrent %>
+  </div>
+  <div class="field">
+    <%= f.label :dorcanvas %><br />
+    <%= f.text_field :dorcanvas %>
+  </div>
+  <div class="field">
+    <%= f.label :telefoncanvas_ego %><br />
+    <%= f.text_field :telefoncanvas_ego %>
+  </div>
+  <div class="field">
+    <%= f.label :telefoncanvas_outsourcet %><br />
+    <%= f.text_field :telefoncanvas_outsourcet %>
+  </div>
+  <div class="field">
+    <%= f.label :M1_Kontakt_etableret %><br />
+    <%= f.text_field :M1_Kontakt_etableret %>
+  </div>
+  <div class="field">
+    <%= f.label :M2_Mode_booket %><br />
+    <%= f.text_field :M2_Mode_booket %>
+  </div>
+  <div class="field">
+    <%= f.label :M3_Mode_gennemfort %><br />
+    <%= f.text_field :M3_Mode_gennemfort %>
+  </div>
+  <div class="field">
+    <%= f.label :M4_Aftale_indgaet %><br />
+    <%= f.text_field :M4_Aftale_indgaet %>
+  </div>
+  <div class="field">
+    <%= f.label :M5_Deltager_booket %><br />
+    <%= f.text_field :M5_Deltager_booket %>
+  </div>
+  <div class="field">
+    <%= f.label :Milepalsstatus %><br />
+    <%= f.text_field :Milepalsstatus %>
+  </div>
+  <div class="field">
+    <%= f.label :naste_kontakt %><br />
+    <%= f.text_field :naste_kontakt %>
+  </div>
+  <div class="field">
+    <%= f.label :kommentarer_og_noter %><br />
+    <%= f.text_field :kommentarer_og_noter %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

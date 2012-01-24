@@ -1,0 +1,69 @@
+<h1>Listing leads</h1>
+
+<table>
+  <tr>
+    <th>Firmanavn</th>
+    <th>Adresse</th>
+    <th>Postnr</th>
+    <th>Telefon</th>
+    <th>Primar branche</th>
+    <th>E-mail</th>
+    <th>Tilladelse til</th>
+    <th>Antal tilladelser</th>
+    <th>Dtl regioner</th>
+    <th>Antal biler</th>
+    <th>Antal chaufforer</th>
+    <th>Kunde</th>
+    <th>Konkurrent</th>
+    <th>Dorcanvas</th>
+    <th>Telefoncanvas ego</th>
+    <th>Telefoncanvas (outsourcet)</th>
+    <th>M1 kontakt etableret</th>
+    <th>M2 mode booket</th>
+    <th>M3 mode gennemfort</th>
+    <th>M4 aftale indgaet</th>
+    <th>M5 deltager booket</th>
+    <th>Milepalsstatus</th>
+    <th>Naste kontakt</th>
+    <th>Kommentarer og noter</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @leads.each do |lead| %>
+  <tr>
+    <td><%= lead.Firmanavn %></td>
+    <td><%= lead.Adresse %></td>
+    <td><%= lead.Postnr %></td>
+    <td><%= lead.telefon %></td>
+    <td><%= lead.primar_branche %></td>
+    <td><%= lead.E-mail %></td>
+    <td><%= lead.tilladelse_til %></td>
+    <td><%= lead.antal_tilladelser %></td>
+    <td><%= lead.DTL_regioner %></td>
+    <td><%= lead.antal_biler %></td>
+    <td><%= lead.antal_chaufforer %></td>
+    <td><%= lead.kunde %></td>
+    <td><%= lead.konkurrent %></td>
+    <td><%= lead.dorcanvas %></td>
+    <td><%= lead.telefoncanvas_ego %></td>
+    <td><%= lead.telefoncanvas_(outsourcet) %></td>
+    <td><%= lead.M1_Kontakt_etableret %></td>
+    <td><%= lead.M2_Mode_booket %></td>
+    <td><%= lead.M3_Mode_gennemfort %></td>
+    <td><%= lead.M4_Aftale_indgaet %></td>
+    <td><%= lead.M5_Deltager_booket %></td>
+    <td><%= lead.Milepalsstatus %></td>
+    <td><%= lead.naste_kontakt %></td>
+    <td><%= lead.kommentarer_og_noter %></td>
+    <td><%= link_to 'Show', lead %></td>
+    <td><%= link_to 'Edit', edit_lead_path(lead) %></td>
+    <td><%= link_to 'Destroy', lead, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Lead', new_lead_path %>
